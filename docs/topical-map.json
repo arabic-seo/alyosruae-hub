@@ -1,0 +1,977 @@
+{
+  "generatedAt": "2026-11-27T14:38:43.003Z",
+  "brandName": "اليسر الذهبية",
+  "hubTitle": "اليسر الذهبية — Semantic Authority Hub",
+  "pagesUrl": "https://arabic-seo.github.io/alyosruae-hub/",
+  "repoUrl": "https://github.com/arabic-seo/alyosruae-hub",
+  "officialSiteUrl": "https://alyosr.ae/",
+  "totals": {
+    "keywords": 92,
+    "publishedRepos": 0,
+    "clusters": 7,
+    "targetUrls": 1
+  },
+  "clusters": [
+    {
+      "id": "cluster_1_pillar-company-cleaning-",
+      "name": "محور: شركة تنظيف في دبي",
+      "slug": "pillar-company-cleaning-dubai",
+      "intent": "local",
+      "siloPageUrl": "https://arabic-seo.github.io/alyosruae-hub/clusters/pillar-company-cleaning-dubai.html",
+      "primaryTargetUrl": "cleaning-dubai",
+      "recommendedWordCount": 2600,
+      "expansionKeywords": [
+        "أسعار شركة تنظيف في دبي",
+        "أفضل شركة تنظيف في دبي مجربة",
+        "معايير اختيار شركة تنظيف في دبي",
+        "دليل شركة تنظيف في دبي خطوة بخطوة",
+        "الأسئلة الشائعة حول شركة تنظيف في دبي",
+        "مقارنة باقات شركة تنظيف في دبي"
+      ],
+      "spokes": [
+        {
+          "keyword": "شركة تنظيف ومكافحة حشرات في الإمارات",
+          "status": "draft",
+          "repoSlug": "cleaning-pest-control-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-pest-control-uae"
+        },
+        {
+          "keyword": "شركة اليسر لخدمات التنظيف ومكافحة الحشرات",
+          "status": "draft",
+          "repoSlug": "ysr-services-cleaning-pest-control-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "ysr-services-cleaning-pest-control"
+        },
+        {
+          "keyword": "رقم شركة تنظيف ومكافحة حشرات الإمارات",
+          "status": "draft",
+          "repoSlug": "rqm-company-cleaning-pest-control-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "rqm-company-cleaning-pest-control-uae"
+        },
+        {
+          "keyword": "شركة تنظيف منازل وفلل في الإمارات",
+          "status": "draft",
+          "repoSlug": "cleaning-home-villa-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-home-villa-uae"
+        },
+        {
+          "keyword": "شركة تنظيف في دبي",
+          "status": "draft",
+          "repoSlug": "cleaning-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-dubai"
+        },
+        {
+          "keyword": "شركة تنظيف في أبوظبي",
+          "status": "draft",
+          "repoSlug": "cleaning-abudhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-abudhabi"
+        },
+        {
+          "keyword": "شركة تنظيف في الشارقة",
+          "status": "draft",
+          "repoSlug": "cleaning-sharjah-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-sharjah"
+        },
+        {
+          "keyword": "شركة تنظيف كنب ومفروشات في الإمارات",
+          "status": "draft",
+          "repoSlug": "cleaning-sofa-wmfrwshat-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-sofa-wmfrwshat-uae"
+        },
+        {
+          "keyword": "شركة تنظيف كنب في دبي",
+          "status": "draft",
+          "repoSlug": "cleaning-sofa-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-sofa-dubai"
+        },
+        {
+          "keyword": "شركة تنظيف كنب في أبوظبي",
+          "status": "draft",
+          "repoSlug": "cleaning-sofa-abudhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-sofa-abudhabi"
+        },
+        {
+          "keyword": "شركة تنظيف كنب في الشارقة",
+          "status": "draft",
+          "repoSlug": "cleaning-sofa-sharjah-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-sofa-sharjah"
+        },
+        {
+          "keyword": "شركة مكافحة حشرات في الإمارات",
+          "status": "draft",
+          "repoSlug": "pest-control-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "pest-control-uae"
+        },
+        {
+          "keyword": "شركة مكافحة حشرات في دبي",
+          "status": "draft",
+          "repoSlug": "pest-control-dubai-3",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "pest-control-dubai"
+        },
+        {
+          "keyword": "شركة مكافحة حشرات في أبوظبي",
+          "status": "draft",
+          "repoSlug": "pest-control-abudhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "pest-control-abudhabi"
+        },
+        {
+          "keyword": "شركة مكافحة حشرات في الشارقة",
+          "status": "draft",
+          "repoSlug": "pest-control-sharjah-3",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "pest-control-sharjah"
+        },
+        {
+          "keyword": "شركة مكافحة الصراصير في دبي",
+          "status": "draft",
+          "repoSlug": "control-cockroach-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-cockroach-dubai"
+        },
+        {
+          "keyword": "شركة مكافحة بق الفراش في دبي",
+          "status": "draft",
+          "repoSlug": "control-bedbug-frash-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-bedbug-frash-dubai"
+        },
+        {
+          "keyword": "شركة مكافحة النمل في دبي",
+          "status": "draft",
+          "repoSlug": "control-ants-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-ants-dubai"
+        },
+        {
+          "keyword": "شركة مكافحة القوارض والفئران في دبي",
+          "status": "draft",
+          "repoSlug": "control-rodents-fyran-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-rodents-fyran-dubai"
+        },
+        {
+          "keyword": "شركة مكافحة الصراصير في أبوظبي",
+          "status": "draft",
+          "repoSlug": "control-cockroach-abudhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-cockroach-abudhabi"
+        },
+        {
+          "keyword": "شركة مكافحة بق الفراش في أبوظبي",
+          "status": "draft",
+          "repoSlug": "control-bedbug-frash-abudhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-bedbug-frash-abudhabi"
+        },
+        {
+          "keyword": "شركة مكافحة الصراصير في الشارقة",
+          "status": "draft",
+          "repoSlug": "control-cockroach-sharjah-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-cockroach-sharjah"
+        },
+        {
+          "keyword": "شركة مكافحة بق الفراش في الشارقة",
+          "status": "draft",
+          "repoSlug": "control-bedbug-frash-sharjah-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-bedbug-frash-sharjah"
+        },
+        {
+          "keyword": "شركة تنظيف خزانات المياه في الإمارات",
+          "status": "draft",
+          "repoSlug": "cleaning-tanks-water-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-tanks-water-uae"
+        },
+        {
+          "keyword": "شركة تنظيف خزانات المياه في دبي",
+          "status": "draft",
+          "repoSlug": "cleaning-tanks-water-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-tanks-water-dubai"
+        },
+        {
+          "keyword": "شركة تنظيف خزانات المياه في أبوظبي",
+          "status": "draft",
+          "repoSlug": "cleaning-tanks-water-abudhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-tanks-water-abudhabi"
+        },
+        {
+          "keyword": "شركة تنظيف خزانات المياه في الشارقة",
+          "status": "draft",
+          "repoSlug": "cleaning-tanks-water-sharjah-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-tanks-water-sharjah"
+        },
+        {
+          "keyword": "شركة مكافحة الحمام والطيور في الإمارات",
+          "status": "draft",
+          "repoSlug": "control-hmam-tywr-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-hmam-tywr-uae"
+        },
+        {
+          "keyword": "شركة مكافحة الحمام في دبي",
+          "status": "draft",
+          "repoSlug": "control-hmam-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-hmam-dubai"
+        },
+        {
+          "keyword": "شركة مكافحة الحمام في أبوظبي",
+          "status": "draft",
+          "repoSlug": "control-hmam-abudhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-hmam-abudhabi"
+        },
+        {
+          "keyword": "شركة مكافحة الحمام في الشارقة",
+          "status": "draft",
+          "repoSlug": "control-hmam-sharjah-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-hmam-sharjah"
+        },
+        {
+          "keyword": "شركة مكافحة الرمة والنمل الأبيض في الإمارات",
+          "status": "draft",
+          "repoSlug": "control-rmh-ants-abyd-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-rmh-ants-abyd-uae"
+        },
+        {
+          "keyword": "شركة مكافحة الرمة في دبي",
+          "status": "draft",
+          "repoSlug": "control-rmh-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-rmh-dubai"
+        },
+        {
+          "keyword": "شركة مكافحة الرمة في أبوظبي",
+          "status": "draft",
+          "repoSlug": "control-rmh-abudhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-rmh-abudhabi"
+        },
+        {
+          "keyword": "شركة مكافحة الرمة في الشارقة",
+          "status": "draft",
+          "repoSlug": "control-rmh-sharjah-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-rmh-sharjah"
+        },
+        {
+          "keyword": "شركة تعقيم وتطهير منازل وشركات في الإمارات",
+          "status": "draft",
+          "repoSlug": "sanitizing-wtthyr-home-companies-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "sanitizing-wtthyr-home-companies-uae"
+        },
+        {
+          "keyword": "شركة تعقيم في دبي",
+          "status": "draft",
+          "repoSlug": "sanitizing-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "sanitizing-dubai"
+        },
+        {
+          "keyword": "شركة تعقيم في أبوظبي",
+          "status": "draft",
+          "repoSlug": "sanitizing-abudhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "sanitizing-abudhabi"
+        },
+        {
+          "keyword": "شركة تعقيم في الشارقة",
+          "status": "draft",
+          "repoSlug": "sanitizing-sharjah-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "sanitizing-sharjah"
+        },
+        {
+          "keyword": "شركة تنظيف واجهات مباني ولوحات إعلانية في الإمارات",
+          "status": "draft",
+          "repoSlug": "cleaning-wajhat-mbany-wlwhat-aalanyh-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-wajhat-mbany-wlwhat-aalanyh-uae"
+        },
+        {
+          "keyword": "شركة تنظيف واجهات زجاج في دبي",
+          "status": "draft",
+          "repoSlug": "cleaning-wajhat-zjaj-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-wajhat-zjaj-dubai"
+        },
+        {
+          "keyword": "شركة تنظيف واجهات في أبوظبي",
+          "status": "draft",
+          "repoSlug": "cleaning-wajhat-abudhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-wajhat-abudhabi"
+        },
+        {
+          "keyword": "شركة تنظيف واجهات في الشارقة",
+          "status": "draft",
+          "repoSlug": "cleaning-wajhat-sharjah-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-wajhat-sharjah"
+        },
+        {
+          "keyword": "شركة تنظيف في العين",
+          "status": "draft",
+          "repoSlug": "cleaning-alain-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-alain"
+        },
+        {
+          "keyword": "شركة مكافحة حشرات في العين",
+          "status": "draft",
+          "repoSlug": "pest-control-alain-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "pest-control-alain"
+        },
+        {
+          "keyword": "شركة مكافحة الرمة في العين",
+          "status": "draft",
+          "repoSlug": "control-rmh-alain-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "control-rmh-alain"
+        },
+        {
+          "keyword": "شركة تنظيف في البرشاء دبي",
+          "status": "draft",
+          "repoSlug": "cleaning-brsha-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-brsha-dubai"
+        },
+        {
+          "keyword": "شركة مكافحة حشرات في البرشاء دبي",
+          "status": "draft",
+          "repoSlug": "pest-control-brsha-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "pest-control-brsha-dubai"
+        },
+        {
+          "keyword": "شركة تنظيف في الخليج التجاري دبي",
+          "status": "draft",
+          "repoSlug": "cleaning-khlyj-tjary-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-khlyj-tjary-dubai"
+        }
+      ]
+    },
+    {
+      "id": "cluster_2_pillar-guide-cleaning-ho",
+      "name": "محور: دليل تنظيف المنازل في دبي",
+      "slug": "pillar-guide-cleaning-home-dubai",
+      "intent": "local",
+      "siloPageUrl": "https://arabic-seo.github.io/alyosruae-hub/clusters/pillar-guide-cleaning-home-dubai.html",
+      "primaryTargetUrl": "guide-cleaning-home-dubai",
+      "recommendedWordCount": 1280,
+      "expansionKeywords": [
+        "أسعار دليل تنظيف المنازل في دبي",
+        "أفضل دليل تنظيف المنازل في دبي مجربة",
+        "معايير اختيار دليل تنظيف المنازل في دبي",
+        "دليل دليل تنظيف المنازل في دبي خطوة بخطوة",
+        "الأسئلة الشائعة حول دليل تنظيف المنازل في دبي",
+        "مقارنة باقات دليل تنظيف المنازل في دبي"
+      ],
+      "spokes": [
+        {
+          "keyword": "تنظيف خزانات المياه البلاستيكية والخرسانية",
+          "status": "draft",
+          "repoSlug": "cleaning-tanks-water-blastykyh-khrsanyh-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-tanks-water-blastykyh-khrsanyh"
+        },
+        {
+          "keyword": "دليل تنظيف المنازل في دبي",
+          "status": "draft",
+          "repoSlug": "guide-cleaning-home-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "guide-cleaning-home-dubai"
+        }
+      ]
+    },
+    {
+      "id": "cluster_3_pillar-sofa-cleaning-dub",
+      "name": "محور: sofa cleaning dubai",
+      "slug": "pillar-sofa-cleaning-dubai",
+      "intent": "local",
+      "siloPageUrl": "https://arabic-seo.github.io/alyosruae-hub/clusters/pillar-sofa-cleaning-dubai.html",
+      "primaryTargetUrl": "sofa-cleaning-dubai",
+      "recommendedWordCount": 2600,
+      "expansionKeywords": [
+        "أسعار sofa cleaning dubai",
+        "أفضل sofa cleaning dubai مجربة",
+        "معايير اختيار sofa cleaning dubai",
+        "دليل sofa cleaning dubai خطوة بخطوة",
+        "الأسئلة الشائعة حول sofa cleaning dubai",
+        "مقارنة باقات sofa cleaning dubai"
+      ],
+      "spokes": [
+        {
+          "keyword": "cleaning and pest control company uae",
+          "status": "draft",
+          "repoSlug": "cleaning-and-pest-control-company-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-and-pest-control-company-uae"
+        },
+        {
+          "keyword": "cleaning and pest control services uae",
+          "status": "draft",
+          "repoSlug": "cleaning-and-pest-control-services-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-and-pest-control-services-uae"
+        },
+        {
+          "keyword": "pest control and cleaning prices uae",
+          "status": "draft",
+          "repoSlug": "pest-control-and-cleaning-prices-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "pest-control-and-cleaning-prices-uae"
+        },
+        {
+          "keyword": "emergency pest control and cleaning uae",
+          "status": "draft",
+          "repoSlug": "emergency-pest-control-and-cleaning-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "emergency-pest-control-and-cleaning-uae"
+        },
+        {
+          "keyword": "cleaning services uae",
+          "status": "draft",
+          "repoSlug": "cleaning-services-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-services-uae"
+        },
+        {
+          "keyword": "cleaning services dubai",
+          "status": "draft",
+          "repoSlug": "cleaning-services-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-services-dubai"
+        },
+        {
+          "keyword": "cleaning services abu dhabi",
+          "status": "draft",
+          "repoSlug": "cleaning-services-abu-dhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-services-abu-dhabi"
+        },
+        {
+          "keyword": "cleaning services sharjah",
+          "status": "draft",
+          "repoSlug": "cleaning-services-sharjah-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "cleaning-services-sharjah"
+        },
+        {
+          "keyword": "upholstery and sofa cleaning uae",
+          "status": "draft",
+          "repoSlug": "upholstery-and-sofa-cleaning-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "upholstery-and-sofa-cleaning-uae"
+        },
+        {
+          "keyword": "sofa cleaning dubai",
+          "status": "draft",
+          "repoSlug": "sofa-cleaning-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "sofa-cleaning-dubai"
+        },
+        {
+          "keyword": "sofa cleaning abu dhabi",
+          "status": "draft",
+          "repoSlug": "sofa-cleaning-abu-dhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "sofa-cleaning-abu-dhabi"
+        },
+        {
+          "keyword": "sofa cleaning sharjah",
+          "status": "draft",
+          "repoSlug": "sofa-cleaning-sharjah-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "sofa-cleaning-sharjah"
+        },
+        {
+          "keyword": "water tank cleaning uae",
+          "status": "draft",
+          "repoSlug": "water-tank-cleaning-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "water-tank-cleaning-uae"
+        },
+        {
+          "keyword": "water tank cleaning dubai",
+          "status": "draft",
+          "repoSlug": "water-tank-cleaning-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "water-tank-cleaning-dubai"
+        },
+        {
+          "keyword": "water tank cleaning abu dhabi",
+          "status": "draft",
+          "repoSlug": "water-tank-cleaning-abu-dhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "water-tank-cleaning-abu-dhabi"
+        },
+        {
+          "keyword": "water tank cleaning sharjah",
+          "status": "draft",
+          "repoSlug": "water-tank-cleaning-sharjah-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "water-tank-cleaning-sharjah"
+        },
+        {
+          "keyword": "facade and signboard cleaning uae",
+          "status": "draft",
+          "repoSlug": "facade-and-signboard-cleaning-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "facade-and-signboard-cleaning-uae"
+        },
+        {
+          "keyword": "facade cleaning dubai",
+          "status": "draft",
+          "repoSlug": "facade-cleaning-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "facade-cleaning-dubai"
+        },
+        {
+          "keyword": "facade cleaning abu dhabi",
+          "status": "draft",
+          "repoSlug": "facade-cleaning-abu-dhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "facade-cleaning-abu-dhabi"
+        },
+        {
+          "keyword": "facade cleaning sharjah",
+          "status": "draft",
+          "repoSlug": "facade-cleaning-sharjah-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "facade-cleaning-sharjah"
+        }
+      ]
+    },
+    {
+      "id": "cluster_4_pillar-tkhls-bedbug-fras",
+      "name": "محور: التخلص من بق الفراش في دبي",
+      "slug": "pillar-tkhls-bedbug-frash-dubai",
+      "intent": "local",
+      "siloPageUrl": "https://arabic-seo.github.io/alyosruae-hub/clusters/pillar-tkhls-bedbug-frash-dubai.html",
+      "primaryTargetUrl": "tkhls-bedbug-frash-dubai",
+      "recommendedWordCount": 1280,
+      "expansionKeywords": [
+        "أسعار التخلص من بق الفراش في دبي",
+        "أفضل التخلص من بق الفراش في دبي مجربة",
+        "معايير اختيار التخلص من بق الفراش في دبي",
+        "دليل التخلص من بق الفراش في دبي خطوة بخطوة",
+        "الأسئلة الشائعة حول التخلص من بق الفراش في دبي",
+        "مقارنة باقات التخلص من بق الفراش في دبي"
+      ],
+      "spokes": [
+        {
+          "keyword": "أسعار مكافحة الحشرات في دبي",
+          "status": "draft",
+          "repoSlug": "prices-pest-control-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "prices-pest-control-dubai"
+        },
+        {
+          "keyword": "التخلص من بق الفراش في دبي",
+          "status": "draft",
+          "repoSlug": "tkhls-bedbug-frash-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "tkhls-bedbug-frash-dubai"
+        }
+      ]
+    },
+    {
+      "id": "cluster_5_pillar-pest-control-duba",
+      "name": "محور: pest control dubai",
+      "slug": "pillar-pest-control-dubai",
+      "intent": "local",
+      "siloPageUrl": "https://arabic-seo.github.io/alyosruae-hub/clusters/pillar-pest-control-dubai.html",
+      "primaryTargetUrl": "pest-control-dubai-2",
+      "recommendedWordCount": 2600,
+      "expansionKeywords": [
+        "أسعار pest control dubai",
+        "أفضل pest control dubai مجربة",
+        "معايير اختيار pest control dubai",
+        "دليل pest control dubai خطوة بخطوة",
+        "الأسئلة الشائعة حول pest control dubai",
+        "مقارنة باقات pest control dubai"
+      ],
+      "spokes": [
+        {
+          "keyword": "pest control services uae",
+          "status": "draft",
+          "repoSlug": "pest-control-services-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "pest-control-services-uae"
+        },
+        {
+          "keyword": "pest control dubai",
+          "status": "draft",
+          "repoSlug": "pest-control-dubai-4",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "pest-control-dubai-2"
+        },
+        {
+          "keyword": "pest control abu dhabi",
+          "status": "draft",
+          "repoSlug": "pest-control-abu-dhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "pest-control-abu-dhabi"
+        },
+        {
+          "keyword": "pest control sharjah",
+          "status": "draft",
+          "repoSlug": "pest-control-sharjah-4",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "pest-control-sharjah-2"
+        },
+        {
+          "keyword": "pigeon and bird control uae",
+          "status": "draft",
+          "repoSlug": "pigeon-and-bird-control-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "pigeon-and-bird-control-uae"
+        },
+        {
+          "keyword": "pigeon control dubai",
+          "status": "draft",
+          "repoSlug": "pigeon-control-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "pigeon-control-dubai"
+        },
+        {
+          "keyword": "pigeon control abu dhabi",
+          "status": "draft",
+          "repoSlug": "pigeon-control-abu-dhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "pigeon-control-abu-dhabi"
+        },
+        {
+          "keyword": "pigeon control sharjah",
+          "status": "draft",
+          "repoSlug": "pigeon-control-sharjah-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "pigeon-control-sharjah"
+        },
+        {
+          "keyword": "termite control services uae",
+          "status": "draft",
+          "repoSlug": "termite-control-services-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "termite-control-services-uae"
+        },
+        {
+          "keyword": "termite control dubai",
+          "status": "draft",
+          "repoSlug": "termite-control-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "termite-control-dubai"
+        },
+        {
+          "keyword": "termite control abu dhabi",
+          "status": "draft",
+          "repoSlug": "termite-control-abu-dhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "termite-control-abu-dhabi"
+        },
+        {
+          "keyword": "termite control sharjah",
+          "status": "draft",
+          "repoSlug": "termite-control-sharjah-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "termite-control-sharjah"
+        },
+        {
+          "keyword": "dubai pest control pricing municipality guide",
+          "status": "draft",
+          "repoSlug": "dubai-pest-control-pricing-municipality-guide-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "dubai-pest-control-pricing-municipality-guide"
+        }
+      ]
+    },
+    {
+      "id": "cluster_6_pillar-services-cleaning",
+      "name": "محور: خدمات التنظيف ومكافحة الحشرات الإمارات",
+      "slug": "pillar-services-cleaning-pest-control-uae",
+      "intent": "local",
+      "siloPageUrl": "https://arabic-seo.github.io/alyosruae-hub/clusters/pillar-services-cleaning-pest-control-uae.html",
+      "primaryTargetUrl": "services-cleaning-pest-control-uae",
+      "recommendedWordCount": 1280,
+      "expansionKeywords": [
+        "أسعار خدمات التنظيف ومكافحة الحشرات الإمارات",
+        "أفضل خدمات التنظيف ومكافحة الحشرات الإمارات مجربة",
+        "معايير اختيار خدمات التنظيف ومكافحة الحشرات الإمارات",
+        "دليل خدمات التنظيف ومكافحة الحشرات الإمارات خطوة بخطوة",
+        "الأسئلة الشائعة حول خدمات التنظيف ومكافحة الحشرات الإمارات",
+        "مقارنة باقات خدمات التنظيف ومكافحة الحشرات الإمارات"
+      ],
+      "spokes": [
+        {
+          "keyword": "خدمات التنظيف ومكافحة الحشرات الإمارات",
+          "status": "draft",
+          "repoSlug": "services-cleaning-pest-control-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "services-cleaning-pest-control-uae"
+        },
+        {
+          "keyword": "علاج النمل الأبيض قبل البناء في الإمارات",
+          "status": "draft",
+          "repoSlug": "alaj-ants-abyd-bna-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "alaj-ants-abyd-bna-uae"
+        }
+      ]
+    },
+    {
+      "id": "cluster_7_pillar-disinfection-serv",
+      "name": "محور: disinfection services dubai",
+      "slug": "pillar-disinfection-services-dubai",
+      "intent": "local",
+      "siloPageUrl": "https://arabic-seo.github.io/alyosruae-hub/clusters/pillar-disinfection-services-dubai.html",
+      "primaryTargetUrl": "disinfection-services-dubai",
+      "recommendedWordCount": 1560,
+      "expansionKeywords": [
+        "أسعار disinfection services dubai",
+        "أفضل disinfection services dubai مجربة",
+        "معايير اختيار disinfection services dubai",
+        "دليل disinfection services dubai خطوة بخطوة",
+        "الأسئلة الشائعة حول disinfection services dubai",
+        "مقارنة باقات disinfection services dubai"
+      ],
+      "spokes": [
+        {
+          "keyword": "disinfection and sterilization services uae",
+          "status": "draft",
+          "repoSlug": "disinfection-and-sterilization-services-uae-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "disinfection-and-sterilization-services-uae"
+        },
+        {
+          "keyword": "disinfection services dubai",
+          "status": "draft",
+          "repoSlug": "disinfection-services-dubai-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "disinfection-services-dubai"
+        },
+        {
+          "keyword": "disinfection services abu dhabi",
+          "status": "draft",
+          "repoSlug": "disinfection-services-abu-dhabi-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "disinfection-services-abu-dhabi"
+        },
+        {
+          "keyword": "disinfection services sharjah",
+          "status": "draft",
+          "repoSlug": "disinfection-services-sharjah-2",
+          "repoUrl": null,
+          "pagesUrl": null,
+          "wikiUrl": null,
+          "targetUrl": "disinfection-services-sharjah"
+        }
+      ]
+    }
+  ]
+}
