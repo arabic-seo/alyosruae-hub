@@ -1,0 +1,937 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>اليسر الذهبية — Semantic Authority Hub</title>
+  <meta name="description" content="خريطة السلطة الموضوعية والموسوعة الشاملة لـ اليسر الذهبية: 7 محاور دلالية و 92 دليل ومصدر موثق." />
+  <link rel="canonical" href="https://arabic-seo.github.io/alyosruae-hub/" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="اليسر الذهبية — Semantic Authority Hub" />
+  <meta property="og:description" content="خريطة السلطة الموضوعية والموسوعة الشاملة لـ اليسر الذهبية: 7 محاور دلالية و 92 دليل ومصدر موثق." />
+  <meta property="og:url" content="https://arabic-seo.github.io/alyosruae-hub/" />
+  <style>
+    :root {
+      --bg: #F8FAFC;
+      --surface: #FFFFFF;
+      --ink: #0F172A;
+      --muted: #475569;
+      --border: #E2E8F0;
+      --accent: #0F766E;
+      --accent-2: #1D4ED8;
+      --accent-soft: #F0FDFA;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Cairo", "Tajawal", "Segoe UI", Tahoma, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.7;
+    }
+    a { color: var(--accent-2); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+    header.hero {
+      background: linear-gradient(135deg, #0F172A 0%, #0F4C5C 60%, #134E4A 100%);
+      color: #FFFFFF;
+      padding: 48px 0 42px;
+      border-bottom: 1px solid rgba(255,255,255,0.12);
+    }
+    .top-nav {
+      display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;
+      gap: 12px; font-size: 13px; margin-bottom: 24px; color: #CBD5E1;
+    }
+    .top-nav a { color: #E2E8F0; font-weight: 500; }
+    .hero h1 { margin: 0 0 12px; font-size: clamp(1.75rem, 3.3vw, 2.5rem); line-height: 1.25; }
+    .hero p.lead { margin: 0; max-width: 72ch; color: #CBD5E1; font-size: 1.02rem; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 6px; padding: 10px 18px;
+      border-radius: 8px; font-size: 14px; font-weight: 600; text-decoration: none !important;
+    }
+    .btn-primary { background: #FFFFFF; color: #0F172A; }
+    .btn-wa { background: #16A34A; color: #FFFFFF; }
+    .btn-outline { background: rgba(255,255,255,0.12); color: #FFFFFF; border: 1px solid rgba(255,255,255,0.28); }
+    .kpi-strip {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 12px; margin-top: 26px;
+    }
+    .kpi {
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 10px; padding: 14px 16px;
+    }
+    .kpi .num { font-size: 1.45rem; font-weight: 700; color: #FFFFFF; }
+    .kpi .lbl { font-size: 12px; color: #CBD5E1; margin-top: 2px; }
+    main { padding: 36px 0 64px; }
+    .toolbar {
+      display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;
+      margin-bottom: 24px; background: var(--surface); border: 1px solid var(--border);
+      border-radius: 10px; padding: 14px 16px;
+    }
+    .search-input {
+      flex: 1; min-width: 240px; padding: 9px 14px; border: 1px solid var(--border);
+      border-radius: 8px; font-size: 14px; color: var(--ink); background: #F8FAFC;
+    }
+    .search-input:focus { outline: none; border-color: var(--accent-2); background: #FFFFFF; }
+    .cluster-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px; }
+    .cluster-chip {
+      padding: 6px 12px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--surface); color: var(--ink); font-size: 13px; font-weight: 500;
+      cursor: pointer; text-decoration: none;
+    }
+    .cluster-chip:hover, .cluster-chip.active {
+      border-color: var(--accent); background: var(--accent-soft); color: var(--accent);
+    }
+    section.silo {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 12px; padding: 24px; margin-bottom: 24px;
+    }
+    .silo-head {
+      display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start;
+      gap: 12px; padding-bottom: 14px; border-bottom: 1px solid #F1F5F9; margin-bottom: 16px;
+    }
+    .silo-head h2 { margin: 0; font-size: 1.25rem; color: var(--ink); }
+    .silo-meta { font-size: 12px; color: var(--muted); margin-top: 4px; }
+    .silo-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 14px;
+    }
+    article.spoke {
+      border: 1px solid var(--border); border-radius: 10px; padding: 16px; background: #FCFDFE;
+      display: flex; flex-direction: column; justify-content: space-between; gap: 10px;
+    }
+    article.spoke h3 { margin: 0; font-size: 15px; line-height: 1.45; color: var(--ink); }
+    .spoke-links { display: flex; flex-wrap: wrap; gap: 8px; font-size: 12px; }
+    .spoke-links a {
+      padding: 4px 9px; border-radius: 6px; border: 1px solid var(--border);
+      background: #FFFFFF; color: var(--ink); font-weight: 500;
+    }
+    .spoke-links a.pages { border-color: #99F6E4; color: #0F766E; background: #F0FDFA; }
+    .spoke-links a.target { border-color: #BFDBFE; color: #1D4ED8; background: #EFF6FF; }
+    .expansion-box {
+      margin-top: 16px; padding-top: 14px; border-top: 1px dashed var(--border);
+      font-size: 13px; color: var(--muted);
+    }
+    .expansion-box strong { color: var(--ink); }
+    .breadcrumb {
+      font-size: 13px; color: #CBD5E1; margin-bottom: 14px; display: flex; gap: 6px; flex-wrap: wrap;
+    }
+    .breadcrumb a { color: #E2E8F0; }
+    footer {
+      border-top: 1px solid var(--border); background: var(--surface);
+      padding: 28px 0; font-size: 13px; color: var(--muted);
+    }
+    .footer-grid { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; align-items: center; }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 14px; }
+  </style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://arabic-seo.github.io/alyosruae-hub/#website","url":"https://arabic-seo.github.io/alyosruae-hub/","name":"اليسر الذهبية — Semantic Authority Hub","description":"خريطة السلطة الموضوعية والموسوعة الشاملة لـ اليسر الذهبية: 7 محاور دلالية و 92 دليل ومصدر موثق.","inLanguage":"ar","sameAs":["https://github.com/arabic-seo/alyosruae-hub","https://alyosr.ae/"]},{"@type":"Organization","@id":"https://arabic-seo.github.io/alyosruae-hub/#org","name":"اليسر الذهبية","url":"https://alyosr.ae/","sameAs":["https://github.com/arabic-seo/alyosruae-hub","https://arabic-seo.github.io/alyosruae-hub/"],"telephone":"+971501415379"},{"@type":"CollectionPage","@id":"https://arabic-seo.github.io/alyosruae-hub/#collection","url":"https://arabic-seo.github.io/alyosruae-hub/","name":"اليسر الذهبية — Semantic Authority Hub","description":"خريطة السلطة الموضوعية والموسوعة الشاملة لـ اليسر الذهبية: 7 محاور دلالية و 92 دليل ومصدر موثق.","isPartOf":{"@id":"https://arabic-seo.github.io/alyosruae-hub/#website"},"about":{"@id":"https://arabic-seo.github.io/alyosruae-hub/#org"},"dateModified":"2026-11-27","mainEntity":{"@type":"ItemList","numberOfItems":7,"itemListElement":[{"@type":"ListItem","position":1,"name":"محور: شركة تنظيف في دبي","url":"https://arabic-seo.github.io/alyosruae-hub/clusters/pillar-company-cleaning-dubai.html","description":"كتلة دلالية تضم 49 كلمة مفتاحية مرتبطة بمحور «شركة تنظيف في دبي» مع 6 كلمات توسيع دلالي لتعزيز السلطة الموضوعية."},{"@type":"ListItem","position":2,"name":"محور: دليل تنظيف المنازل في دبي","url":"https://arabic-seo.github.io/alyosruae-hub/clusters/pillar-guide-cleaning-home-dubai.html","description":"كتلة دلالية تضم 2 كلمة مفتاحية مرتبطة بمحور «دليل تنظيف المنازل في دبي» مع 6 كلمات توسيع دلالي لتعزيز السلطة الموضوعية."},{"@type":"ListItem","position":3,"name":"محور: sofa cleaning dubai","url":"https://arabic-seo.github.io/alyosruae-hub/clusters/pillar-sofa-cleaning-dubai.html","description":"كتلة دلالية تضم 20 كلمة مفتاحية مرتبطة بمحور «sofa cleaning dubai» مع 6 كلمات توسيع دلالي لتعزيز السلطة الموضوعية."},{"@type":"ListItem","position":4,"name":"محور: التخلص من بق الفراش في دبي","url":"https://arabic-seo.github.io/alyosruae-hub/clusters/pillar-tkhls-bedbug-frash-dubai.html","description":"كتلة دلالية تضم 2 كلمة مفتاحية مرتبطة بمحور «التخلص من بق الفراش في دبي» مع 6 كلمات توسيع دلالي لتعزيز السلطة الموضوعية."},{"@type":"ListItem","position":5,"name":"محور: pest control dubai","url":"https://arabic-seo.github.io/alyosruae-hub/clusters/pillar-pest-control-dubai.html","description":"كتلة دلالية تضم 13 كلمة مفتاحية مرتبطة بمحور «pest control dubai» مع 6 كلمات توسيع دلالي لتعزيز السلطة الموضوعية."},{"@type":"ListItem","position":6,"name":"محور: خدمات التنظيف ومكافحة الحشرات الإمارات","url":"https://arabic-seo.github.io/alyosruae-hub/clusters/pillar-services-cleaning-pest-control-uae.html","description":"كتلة دلالية تضم 2 كلمة مفتاحية مرتبطة بمحور «خدمات التنظيف ومكافحة الحشرات الإمارات» مع 6 كلمات توسيع دلالي لتعزيز السلطة الموضوعية."},{"@type":"ListItem","position":7,"name":"محور: disinfection services dubai","url":"https://arabic-seo.github.io/alyosruae-hub/clusters/pillar-disinfection-services-dubai.html","description":"كتلة دلالية تضم 4 كلمة مفتاحية مرتبطة بمحور «disinfection services dubai» مع 6 كلمات توسيع دلالي لتعزيز السلطة الموضوعية."}]}}]}</script>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <nav class="top-nav" aria-label="Primary">
+        <strong>اليسر الذهبية</strong>
+        <div>
+          <a href="https://arabic-seo.github.io/alyosruae-hub/sitemap.xml">sitemap.xml</a> ·
+          <a href="https://arabic-seo.github.io/alyosruae-hub/llms.txt">llms.txt</a> ·
+          <a href="https://github.com/arabic-seo/alyosruae-hub" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </nav>
+      <h1>اليسر الذهبية — Semantic Authority Hub</h1>
+      <p class="lead">خريطة السلطة الموضوعية والموسوعة الشاملة لـ اليسر الذهبية: 7 محاور دلالية و 92 دليل ومصدر موثق.</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="https://alyosr.ae/" target="_blank" rel="noopener noreferrer">الموقع الرسمي — اليسر الذهبية</a><a class="btn btn-wa" href="https://wa.me/971501415379" target="_blank" rel="noopener noreferrer">تواصل عبر واتساب</a><a class="btn btn-outline" href="tel:+971501415379">اتصل الآن: <span dir="ltr" style="unicode-bidi:isolate">+971501415379</span></a><a class="btn btn-outline" href="https://github.com/arabic-seo/alyosruae-hub" target="_blank" rel="noopener noreferrer">مستودع التوثيق على GitHub</a></div>
+      <div class="kpi-strip">
+        <div class="kpi">
+          <div class="num">7</div>
+          <div class="lbl">محور دلالي متخصص (Clusters)</div>
+        </div>
+        <div class="kpi">
+          <div class="num">0 / 92</div>
+          <div class="lbl">أدلة ومستودعات منشورة</div>
+        </div>
+        <div class="kpi">
+          <div class="num">1</div>
+          <div class="lbl">روابط مرجعية موثقة</div>
+        </div>
+        <div class="kpi">
+          <div class="num">2026-11-27</div>
+          <div class="lbl">آخر تحديث للخريطة</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="toolbar">
+      <input id="hubSearch" class="search-input" type="search" placeholder="ابحث في جميع الأدلة والخدمات والمحاور الدلالية..." aria-label="Search guides" />
+      <span class="silo-meta">يعرض 7 محاور رئيسية</span>
+    </div>
+
+    <nav class="cluster-nav" aria-label="المحاور الدلالية">
+      <a class="cluster-chip" href="#silo-pillar-company-cleaning-dubai">محور: شركة تنظيف في دبي (49)</a>
+      <a class="cluster-chip" href="#silo-pillar-guide-cleaning-home-dubai">محور: دليل تنظيف المنازل في دبي (2)</a>
+      <a class="cluster-chip" href="#silo-pillar-sofa-cleaning-dubai">محور: sofa cleaning dubai (20)</a>
+      <a class="cluster-chip" href="#silo-pillar-tkhls-bedbug-frash-dubai">محور: التخلص من بق الفراش في دبي (2)</a>
+      <a class="cluster-chip" href="#silo-pillar-pest-control-dubai">محور: pest control dubai (13)</a>
+      <a class="cluster-chip" href="#silo-pillar-services-cleaning-pest-control-uae">محور: خدمات التنظيف ومكافحة الحشرات الإمارات (2)</a>
+      <a class="cluster-chip" href="#silo-pillar-disinfection-services-dubai">محور: disinfection services dubai (4)</a>
+    </nav>
+
+    <section class="silo" id="silo-pillar-company-cleaning-dubai">
+      <div class="silo-head">
+        <div>
+          <h2><a href="./clusters/pillar-company-cleaning-dubai.html">محور: شركة تنظيف في دبي</a></h2>
+          <div class="silo-meta">كتلة دلالية تضم 49 كلمة مفتاحية مرتبطة بمحور «شركة تنظيف في دبي» مع 6 كلمات توسيع دلالي لتعزيز السلطة الموضوعية.</div>
+        </div>
+        <a class="cluster-chip" href="./clusters/pillar-company-cleaning-dubai.html">فتح صفحة المحور الكاملة ←</a>
+      </div>
+      <div class="silo-grid">
+        <article class="spoke" data-kw="شركة تنظيف ومكافحة حشرات في الإمارات">
+      <div>
+        <h3>شركة تنظيف ومكافحة حشرات في الإمارات</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-pest-control-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة اليسر لخدمات التنظيف ومكافحة الحشرات">
+      <div>
+        <h3>شركة اليسر لخدمات التنظيف ومكافحة الحشرات</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">ysr-services-cleaning-pest-control-2</span></div>
+    </article>
+        <article class="spoke" data-kw="رقم شركة تنظيف ومكافحة حشرات الإمارات">
+      <div>
+        <h3>رقم شركة تنظيف ومكافحة حشرات الإمارات</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">rqm-company-cleaning-pest-control-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف منازل وفلل في الإمارات">
+      <div>
+        <h3>شركة تنظيف منازل وفلل في الإمارات</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-home-villa-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف في دبي">
+      <div>
+        <h3>شركة تنظيف في دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف في أبوظبي">
+      <div>
+        <h3>شركة تنظيف في أبوظبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-abudhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف في الشارقة">
+      <div>
+        <h3>شركة تنظيف في الشارقة</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-sharjah-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف كنب ومفروشات في الإمارات">
+      <div>
+        <h3>شركة تنظيف كنب ومفروشات في الإمارات</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-sofa-wmfrwshat-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف كنب في دبي">
+      <div>
+        <h3>شركة تنظيف كنب في دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-sofa-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف كنب في أبوظبي">
+      <div>
+        <h3>شركة تنظيف كنب في أبوظبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-sofa-abudhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف كنب في الشارقة">
+      <div>
+        <h3>شركة تنظيف كنب في الشارقة</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-sofa-sharjah-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة حشرات في الإمارات">
+      <div>
+        <h3>شركة مكافحة حشرات في الإمارات</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">pest-control-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة حشرات في دبي">
+      <div>
+        <h3>شركة مكافحة حشرات في دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">pest-control-dubai-3</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة حشرات في أبوظبي">
+      <div>
+        <h3>شركة مكافحة حشرات في أبوظبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">pest-control-abudhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة حشرات في الشارقة">
+      <div>
+        <h3>شركة مكافحة حشرات في الشارقة</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">pest-control-sharjah-3</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة الصراصير في دبي">
+      <div>
+        <h3>شركة مكافحة الصراصير في دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-cockroach-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة بق الفراش في دبي">
+      <div>
+        <h3>شركة مكافحة بق الفراش في دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-bedbug-frash-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة النمل في دبي">
+      <div>
+        <h3>شركة مكافحة النمل في دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-ants-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة القوارض والفئران في دبي">
+      <div>
+        <h3>شركة مكافحة القوارض والفئران في دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-rodents-fyran-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة الصراصير في أبوظبي">
+      <div>
+        <h3>شركة مكافحة الصراصير في أبوظبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-cockroach-abudhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة بق الفراش في أبوظبي">
+      <div>
+        <h3>شركة مكافحة بق الفراش في أبوظبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-bedbug-frash-abudhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة الصراصير في الشارقة">
+      <div>
+        <h3>شركة مكافحة الصراصير في الشارقة</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-cockroach-sharjah-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة بق الفراش في الشارقة">
+      <div>
+        <h3>شركة مكافحة بق الفراش في الشارقة</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-bedbug-frash-sharjah-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف خزانات المياه في الإمارات">
+      <div>
+        <h3>شركة تنظيف خزانات المياه في الإمارات</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-tanks-water-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف خزانات المياه في دبي">
+      <div>
+        <h3>شركة تنظيف خزانات المياه في دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-tanks-water-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف خزانات المياه في أبوظبي">
+      <div>
+        <h3>شركة تنظيف خزانات المياه في أبوظبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-tanks-water-abudhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف خزانات المياه في الشارقة">
+      <div>
+        <h3>شركة تنظيف خزانات المياه في الشارقة</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-tanks-water-sharjah-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة الحمام والطيور في الإمارات">
+      <div>
+        <h3>شركة مكافحة الحمام والطيور في الإمارات</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-hmam-tywr-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة الحمام في دبي">
+      <div>
+        <h3>شركة مكافحة الحمام في دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-hmam-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة الحمام في أبوظبي">
+      <div>
+        <h3>شركة مكافحة الحمام في أبوظبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-hmam-abudhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة الحمام في الشارقة">
+      <div>
+        <h3>شركة مكافحة الحمام في الشارقة</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-hmam-sharjah-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة الرمة والنمل الأبيض في الإمارات">
+      <div>
+        <h3>شركة مكافحة الرمة والنمل الأبيض في الإمارات</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-rmh-ants-abyd-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة الرمة في دبي">
+      <div>
+        <h3>شركة مكافحة الرمة في دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-rmh-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة الرمة في أبوظبي">
+      <div>
+        <h3>شركة مكافحة الرمة في أبوظبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-rmh-abudhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة الرمة في الشارقة">
+      <div>
+        <h3>شركة مكافحة الرمة في الشارقة</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-rmh-sharjah-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تعقيم وتطهير منازل وشركات في الإمارات">
+      <div>
+        <h3>شركة تعقيم وتطهير منازل وشركات في الإمارات</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">sanitizing-wtthyr-home-companies-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تعقيم في دبي">
+      <div>
+        <h3>شركة تعقيم في دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">sanitizing-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تعقيم في أبوظبي">
+      <div>
+        <h3>شركة تعقيم في أبوظبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">sanitizing-abudhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تعقيم في الشارقة">
+      <div>
+        <h3>شركة تعقيم في الشارقة</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">sanitizing-sharjah-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف واجهات مباني ولوحات إعلانية في الإمارات">
+      <div>
+        <h3>شركة تنظيف واجهات مباني ولوحات إعلانية في الإمارات</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-wajhat-mbany-wlwhat-aalanyh-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف واجهات زجاج في دبي">
+      <div>
+        <h3>شركة تنظيف واجهات زجاج في دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-wajhat-zjaj-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف واجهات في أبوظبي">
+      <div>
+        <h3>شركة تنظيف واجهات في أبوظبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-wajhat-abudhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف واجهات في الشارقة">
+      <div>
+        <h3>شركة تنظيف واجهات في الشارقة</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-wajhat-sharjah-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف في العين">
+      <div>
+        <h3>شركة تنظيف في العين</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-alain-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة حشرات في العين">
+      <div>
+        <h3>شركة مكافحة حشرات في العين</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">pest-control-alain-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة الرمة في العين">
+      <div>
+        <h3>شركة مكافحة الرمة في العين</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">control-rmh-alain-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف في البرشاء دبي">
+      <div>
+        <h3>شركة تنظيف في البرشاء دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-brsha-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة مكافحة حشرات في البرشاء دبي">
+      <div>
+        <h3>شركة مكافحة حشرات في البرشاء دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">pest-control-brsha-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="شركة تنظيف في الخليج التجاري دبي">
+      <div>
+        <h3>شركة تنظيف في الخليج التجاري دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-khlyj-tjary-dubai-2</span></div>
+    </article>
+      </div>
+      <div class="expansion-box"><strong>كيانات التوسع الدلالي (Semantic Entities): </strong>أسعار شركة تنظيف في دبي · أفضل شركة تنظيف في دبي مجربة · معايير اختيار شركة تنظيف في دبي · دليل شركة تنظيف في دبي خطوة بخطوة · الأسئلة الشائعة حول شركة تنظيف في دبي · مقارنة باقات شركة تنظيف في دبي</div>
+    </section>
+    <section class="silo" id="silo-pillar-guide-cleaning-home-dubai">
+      <div class="silo-head">
+        <div>
+          <h2><a href="./clusters/pillar-guide-cleaning-home-dubai.html">محور: دليل تنظيف المنازل في دبي</a></h2>
+          <div class="silo-meta">كتلة دلالية تضم 2 كلمة مفتاحية مرتبطة بمحور «دليل تنظيف المنازل في دبي» مع 6 كلمات توسيع دلالي لتعزيز السلطة الموضوعية.</div>
+        </div>
+        <a class="cluster-chip" href="./clusters/pillar-guide-cleaning-home-dubai.html">فتح صفحة المحور الكاملة ←</a>
+      </div>
+      <div class="silo-grid">
+        <article class="spoke" data-kw="تنظيف خزانات المياه البلاستيكية والخرسانية">
+      <div>
+        <h3>تنظيف خزانات المياه البلاستيكية والخرسانية</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-tanks-water-blastykyh-khrsanyh-2</span></div>
+    </article>
+        <article class="spoke" data-kw="دليل تنظيف المنازل في دبي">
+      <div>
+        <h3>دليل تنظيف المنازل في دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">guide-cleaning-home-dubai-2</span></div>
+    </article>
+      </div>
+      <div class="expansion-box"><strong>كيانات التوسع الدلالي (Semantic Entities): </strong>أسعار دليل تنظيف المنازل في دبي · أفضل دليل تنظيف المنازل في دبي مجربة · معايير اختيار دليل تنظيف المنازل في دبي · دليل دليل تنظيف المنازل في دبي خطوة بخطوة · الأسئلة الشائعة حول دليل تنظيف المنازل في دبي · مقارنة باقات دليل تنظيف المنازل في دبي</div>
+    </section>
+    <section class="silo" id="silo-pillar-sofa-cleaning-dubai">
+      <div class="silo-head">
+        <div>
+          <h2><a href="./clusters/pillar-sofa-cleaning-dubai.html">محور: sofa cleaning dubai</a></h2>
+          <div class="silo-meta">كتلة دلالية تضم 20 كلمة مفتاحية مرتبطة بمحور «sofa cleaning dubai» مع 6 كلمات توسيع دلالي لتعزيز السلطة الموضوعية.</div>
+        </div>
+        <a class="cluster-chip" href="./clusters/pillar-sofa-cleaning-dubai.html">فتح صفحة المحور الكاملة ←</a>
+      </div>
+      <div class="silo-grid">
+        <article class="spoke" data-kw="cleaning and pest control company uae">
+      <div>
+        <h3>cleaning and pest control company uae</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-and-pest-control-company-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="cleaning and pest control services uae">
+      <div>
+        <h3>cleaning and pest control services uae</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-and-pest-control-services-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="pest control and cleaning prices uae">
+      <div>
+        <h3>pest control and cleaning prices uae</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">pest-control-and-cleaning-prices-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="emergency pest control and cleaning uae">
+      <div>
+        <h3>emergency pest control and cleaning uae</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">emergency-pest-control-and-cleaning-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="cleaning services uae">
+      <div>
+        <h3>cleaning services uae</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-services-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="cleaning services dubai">
+      <div>
+        <h3>cleaning services dubai</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-services-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="cleaning services abu dhabi">
+      <div>
+        <h3>cleaning services abu dhabi</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-services-abu-dhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="cleaning services sharjah">
+      <div>
+        <h3>cleaning services sharjah</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">cleaning-services-sharjah-2</span></div>
+    </article>
+        <article class="spoke" data-kw="upholstery and sofa cleaning uae">
+      <div>
+        <h3>upholstery and sofa cleaning uae</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">upholstery-and-sofa-cleaning-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="sofa cleaning dubai">
+      <div>
+        <h3>sofa cleaning dubai</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">sofa-cleaning-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="sofa cleaning abu dhabi">
+      <div>
+        <h3>sofa cleaning abu dhabi</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">sofa-cleaning-abu-dhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="sofa cleaning sharjah">
+      <div>
+        <h3>sofa cleaning sharjah</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">sofa-cleaning-sharjah-2</span></div>
+    </article>
+        <article class="spoke" data-kw="water tank cleaning uae">
+      <div>
+        <h3>water tank cleaning uae</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">water-tank-cleaning-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="water tank cleaning dubai">
+      <div>
+        <h3>water tank cleaning dubai</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">water-tank-cleaning-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="water tank cleaning abu dhabi">
+      <div>
+        <h3>water tank cleaning abu dhabi</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">water-tank-cleaning-abu-dhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="water tank cleaning sharjah">
+      <div>
+        <h3>water tank cleaning sharjah</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">water-tank-cleaning-sharjah-2</span></div>
+    </article>
+        <article class="spoke" data-kw="facade and signboard cleaning uae">
+      <div>
+        <h3>facade and signboard cleaning uae</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">facade-and-signboard-cleaning-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="facade cleaning dubai">
+      <div>
+        <h3>facade cleaning dubai</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">facade-cleaning-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="facade cleaning abu dhabi">
+      <div>
+        <h3>facade cleaning abu dhabi</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">facade-cleaning-abu-dhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="facade cleaning sharjah">
+      <div>
+        <h3>facade cleaning sharjah</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">facade-cleaning-sharjah-2</span></div>
+    </article>
+      </div>
+      <div class="expansion-box"><strong>كيانات التوسع الدلالي (Semantic Entities): </strong>أسعار sofa cleaning dubai · أفضل sofa cleaning dubai مجربة · معايير اختيار sofa cleaning dubai · دليل sofa cleaning dubai خطوة بخطوة · الأسئلة الشائعة حول sofa cleaning dubai · مقارنة باقات sofa cleaning dubai</div>
+    </section>
+    <section class="silo" id="silo-pillar-tkhls-bedbug-frash-dubai">
+      <div class="silo-head">
+        <div>
+          <h2><a href="./clusters/pillar-tkhls-bedbug-frash-dubai.html">محور: التخلص من بق الفراش في دبي</a></h2>
+          <div class="silo-meta">كتلة دلالية تضم 2 كلمة مفتاحية مرتبطة بمحور «التخلص من بق الفراش في دبي» مع 6 كلمات توسيع دلالي لتعزيز السلطة الموضوعية.</div>
+        </div>
+        <a class="cluster-chip" href="./clusters/pillar-tkhls-bedbug-frash-dubai.html">فتح صفحة المحور الكاملة ←</a>
+      </div>
+      <div class="silo-grid">
+        <article class="spoke" data-kw="أسعار مكافحة الحشرات في دبي">
+      <div>
+        <h3>أسعار مكافحة الحشرات في دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">prices-pest-control-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="التخلص من بق الفراش في دبي">
+      <div>
+        <h3>التخلص من بق الفراش في دبي</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">tkhls-bedbug-frash-dubai-2</span></div>
+    </article>
+      </div>
+      <div class="expansion-box"><strong>كيانات التوسع الدلالي (Semantic Entities): </strong>أسعار التخلص من بق الفراش في دبي · أفضل التخلص من بق الفراش في دبي مجربة · معايير اختيار التخلص من بق الفراش في دبي · دليل التخلص من بق الفراش في دبي خطوة بخطوة · الأسئلة الشائعة حول التخلص من بق الفراش في دبي · مقارنة باقات التخلص من بق الفراش في دبي</div>
+    </section>
+    <section class="silo" id="silo-pillar-pest-control-dubai">
+      <div class="silo-head">
+        <div>
+          <h2><a href="./clusters/pillar-pest-control-dubai.html">محور: pest control dubai</a></h2>
+          <div class="silo-meta">كتلة دلالية تضم 13 كلمة مفتاحية مرتبطة بمحور «pest control dubai» مع 6 كلمات توسيع دلالي لتعزيز السلطة الموضوعية.</div>
+        </div>
+        <a class="cluster-chip" href="./clusters/pillar-pest-control-dubai.html">فتح صفحة المحور الكاملة ←</a>
+      </div>
+      <div class="silo-grid">
+        <article class="spoke" data-kw="pest control services uae">
+      <div>
+        <h3>pest control services uae</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">pest-control-services-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="pest control dubai">
+      <div>
+        <h3>pest control dubai</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">pest-control-dubai-4</span></div>
+    </article>
+        <article class="spoke" data-kw="pest control abu dhabi">
+      <div>
+        <h3>pest control abu dhabi</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">pest-control-abu-dhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="pest control sharjah">
+      <div>
+        <h3>pest control sharjah</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">pest-control-sharjah-4</span></div>
+    </article>
+        <article class="spoke" data-kw="pigeon and bird control uae">
+      <div>
+        <h3>pigeon and bird control uae</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">pigeon-and-bird-control-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="pigeon control dubai">
+      <div>
+        <h3>pigeon control dubai</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">pigeon-control-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="pigeon control abu dhabi">
+      <div>
+        <h3>pigeon control abu dhabi</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">pigeon-control-abu-dhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="pigeon control sharjah">
+      <div>
+        <h3>pigeon control sharjah</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">pigeon-control-sharjah-2</span></div>
+    </article>
+        <article class="spoke" data-kw="termite control services uae">
+      <div>
+        <h3>termite control services uae</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">termite-control-services-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="termite control dubai">
+      <div>
+        <h3>termite control dubai</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">termite-control-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="termite control abu dhabi">
+      <div>
+        <h3>termite control abu dhabi</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">termite-control-abu-dhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="termite control sharjah">
+      <div>
+        <h3>termite control sharjah</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">termite-control-sharjah-2</span></div>
+    </article>
+        <article class="spoke" data-kw="dubai pest control pricing municipality guide">
+      <div>
+        <h3>dubai pest control pricing municipality guide</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">dubai-pest-control-pricing-municipality-guide-2</span></div>
+    </article>
+      </div>
+      <div class="expansion-box"><strong>كيانات التوسع الدلالي (Semantic Entities): </strong>أسعار pest control dubai · أفضل pest control dubai مجربة · معايير اختيار pest control dubai · دليل pest control dubai خطوة بخطوة · الأسئلة الشائعة حول pest control dubai · مقارنة باقات pest control dubai</div>
+    </section>
+    <section class="silo" id="silo-pillar-services-cleaning-pest-control-uae">
+      <div class="silo-head">
+        <div>
+          <h2><a href="./clusters/pillar-services-cleaning-pest-control-uae.html">محور: خدمات التنظيف ومكافحة الحشرات الإمارات</a></h2>
+          <div class="silo-meta">كتلة دلالية تضم 2 كلمة مفتاحية مرتبطة بمحور «خدمات التنظيف ومكافحة الحشرات الإمارات» مع 6 كلمات توسيع دلالي لتعزيز السلطة الموضوعية.</div>
+        </div>
+        <a class="cluster-chip" href="./clusters/pillar-services-cleaning-pest-control-uae.html">فتح صفحة المحور الكاملة ←</a>
+      </div>
+      <div class="silo-grid">
+        <article class="spoke" data-kw="خدمات التنظيف ومكافحة الحشرات الإمارات">
+      <div>
+        <h3>خدمات التنظيف ومكافحة الحشرات الإمارات</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">services-cleaning-pest-control-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="علاج النمل الأبيض قبل البناء في الإمارات">
+      <div>
+        <h3>علاج النمل الأبيض قبل البناء في الإمارات</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">alaj-ants-abyd-bna-uae-2</span></div>
+    </article>
+      </div>
+      <div class="expansion-box"><strong>كيانات التوسع الدلالي (Semantic Entities): </strong>أسعار خدمات التنظيف ومكافحة الحشرات الإمارات · أفضل خدمات التنظيف ومكافحة الحشرات الإمارات مجربة · معايير اختيار خدمات التنظيف ومكافحة الحشرات الإمارات · دليل خدمات التنظيف ومكافحة الحشرات الإمارات خطوة بخطوة · الأسئلة الشائعة حول خدمات التنظيف ومكافحة الحشرات الإمارات · مقارنة باقات خدمات التنظيف ومكافحة الحشرات الإمارات</div>
+    </section>
+    <section class="silo" id="silo-pillar-disinfection-services-dubai">
+      <div class="silo-head">
+        <div>
+          <h2><a href="./clusters/pillar-disinfection-services-dubai.html">محور: disinfection services dubai</a></h2>
+          <div class="silo-meta">كتلة دلالية تضم 4 كلمة مفتاحية مرتبطة بمحور «disinfection services dubai» مع 6 كلمات توسيع دلالي لتعزيز السلطة الموضوعية.</div>
+        </div>
+        <a class="cluster-chip" href="./clusters/pillar-disinfection-services-dubai.html">فتح صفحة المحور الكاملة ←</a>
+      </div>
+      <div class="silo-grid">
+        <article class="spoke" data-kw="disinfection and sterilization services uae">
+      <div>
+        <h3>disinfection and sterilization services uae</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">disinfection-and-sterilization-services-uae-2</span></div>
+    </article>
+        <article class="spoke" data-kw="disinfection services dubai">
+      <div>
+        <h3>disinfection services dubai</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">disinfection-services-dubai-2</span></div>
+    </article>
+        <article class="spoke" data-kw="disinfection services abu dhabi">
+      <div>
+        <h3>disinfection services abu dhabi</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">disinfection-services-abu-dhabi-2</span></div>
+    </article>
+        <article class="spoke" data-kw="disinfection services sharjah">
+      <div>
+        <h3>disinfection services sharjah</h3>
+        <div class="silo-meta">مجدول ضمن الخريطة الدلالية</div>
+      </div>
+      <div class="spoke-links"><span class="silo-meta">disinfection-services-sharjah-2</span></div>
+    </article>
+      </div>
+      <div class="expansion-box"><strong>كيانات التوسع الدلالي (Semantic Entities): </strong>أسعار disinfection services dubai · أفضل disinfection services dubai مجربة · معايير اختيار disinfection services dubai · دليل disinfection services dubai خطوة بخطوة · الأسئلة الشائعة حول disinfection services dubai · مقارنة باقات disinfection services dubai</div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>اليسر الذهبية — بوابة التوثيق الدلالي الموحدة</div>
+      <div class="footer-links">
+        <a href="./sitemap.xml">Sitemap</a>
+        <a href="./llms.txt">LLMs.txt</a>
+        <a href="./topical-map.json">Topical Graph JSON</a>
+        <a href="https://alyosr.ae/" target="_blank" rel="noopener noreferrer">الموقع الرسمي</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    (function(){
+      var input = document.getElementById('hubSearch');
+      if (!input) return;
+      input.addEventListener('input', function(){
+        var q = (input.value || '').trim().toLowerCase();
+        var cards = document.querySelectorAll('article.spoke');
+        cards.forEach(function(card){
+          var kw = card.getAttribute('data-kw') || '';
+          card.style.display = (!q || kw.indexOf(q) !== -1) ? '' : 'none';
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
